@@ -31,18 +31,6 @@ Building a game from scratch can be a daunting task but a lot can be achieved wi
 
 The code is structured in a straighforward way. No unnecessary cruft, abstractions, OOP paradigms. Just what's needed to make a functioning game.
 
-## Dependencies
-`Chunk Miner` is built mostly from the ground up, with some minor exceptions.  
-While it does not make use of popular libraries like [SDL](https://github.com/libsdl-org/SDL) or [raylib](https://github.com/raysan5/raylib), it uses some smaller libraries from the Odin `vendor` package as well as the Odin `core` package:
-- [stb_image](https://pkg.odin-lang.org/vendor/stb/image/), a small image loading library
-- [miniaudio](https://pkg.odin-lang.org/vendor/miniaudio/) for sound
-- [D3D11](https://pkg.odin-lang.org/vendor/directx/d3d11/) (arguably not a 'real' dependency, since you have to use SOME graphics API to use accelerated graphics)
-
-## Build instructions
-To build `Chunk Miner` an up to date [Odin](https://odin-lang.org/) compiler must be installed.
-The `build_debug.cmd` and `build_release.cmd` files can then be used to build the game.
-Alternatively the command `odin.exe build ./src -debug -out:ChunkMiner.exe` can be used directly.
-
 ## What this is NOT
 ### A game engine
 Depending on your game's requirements, team size etc. a commercial game engine might be the right choice.
@@ -54,6 +42,18 @@ Things like that can always be built later when they become necessary.
 ### A well designed game
 While `Chunk Miner` contains about everything a game needs, that does not necessarily make it a good game. My main strengths are programming, not game design. In fact I know that `Chunk Miner` in it's current state is not very playable from a game design standpoint. All the mechanics are there but I never bothered to balance the values of upgrades, prices, world generation etc. enought to actually make it enjoyable.
 PRs to fix that are more than welcome.
+
+## Dependencies
+`Chunk Miner` is built mostly from the ground up, with some minor exceptions.  
+While it does not make use of popular libraries like [SDL](https://github.com/libsdl-org/SDL) or [raylib](https://github.com/raysan5/raylib), it uses some smaller libraries from the Odin `vendor` package as well as the Odin `core` package:
+- [stb_image](https://pkg.odin-lang.org/vendor/stb/image/), a small image loading library
+- [miniaudio](https://pkg.odin-lang.org/vendor/miniaudio/) for sound
+- [D3D11](https://pkg.odin-lang.org/vendor/directx/d3d11/) (arguably not a 'real' dependency, since you have to use SOME graphics API to use accelerated graphics)
+
+## Build instructions
+To build `Chunk Miner` an up to date [Odin](https://odin-lang.org/) compiler must be installed.
+The `build_debug.cmd` and `build_release.cmd` files can then be used to build the game.
+Alternatively the command `odin.exe build ./src -debug -out:ChunkMiner.exe` can be used directly.
 
 ## Inspiration
 - [Handmade Hero](https://mollyrocket.com/#handmade) ([Episodes](https://guide.handmadehero.org/)), an excellent video series by [Casey Muratori](https://x.com/cmuratori) on developing video games from scratch.
