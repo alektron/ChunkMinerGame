@@ -2,7 +2,7 @@
 
 `Chunk Miner` is a small but complete game, in less than 3200 lines of code.  
 It is written in [Odin](https://odin-lang.org/) with a focus on simplicity and readability.  
-The finished game can be found on [itch](https://alektron.itch.io/).
+The finished game can be found on [itch.io](https://alektron.itch.io/) (TODO).
 
 ## Features
 - 3D renderer (Direct3D 11)
@@ -38,6 +38,11 @@ While it does not make use of popular libraries like [SDL](https://github.com/li
 - [miniaudio](https://pkg.odin-lang.org/vendor/miniaudio/) for sound
 - [D3D11](https://pkg.odin-lang.org/vendor/directx/d3d11/) (arguably not a 'real' dependency, since you have to use SOME graphics API to use accelerated graphics)
 
+## Build instructions
+To build `Chunk Miner` an up to date [Odin](https://odin-lang.org/) compiler must be installed.
+The `build_debug.cmd` and `build_release.cmd` files can then be used to build the game.
+Alternatively the command `odin.exe build ./src -debug -out:ChunkMiner.exe` can be used directly.
+
 ## What this is NOT
 ### A game engine
 Depending on your game's requirements, team size etc. a commercial game engine might be the right choice.
@@ -56,4 +61,7 @@ PRs to fix that are more than welcome.
 
 ## Credits
 - The font used in `Chunk Miner` is 'Bold Blocks' from the [Nico Pixel Fonts Pack](https://emhuo.itch.io/nico-pixel-fonts-pack) 
+- Original sounds (edited):
+  - https://freesound.org/people/videog/sounds/149193/
+  -https://freesound.org/people/kyles/sounds/637704/
 
