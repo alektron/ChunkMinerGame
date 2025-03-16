@@ -2,7 +2,7 @@
 
 `Chunk Miner` is a small but complete game, in less than 3200 lines of code.  
 It is written in [Odin](https://odin-lang.org/) with a focus on simplicity and readability.  
-The finished game can be found on [itch.io](https://alektron.itch.io/) (TODO).
+The finished game with screenshots can be found on [itch.io](https://alektron.itch.io/) (TODO) or in [Releases](https://github.com/alektron/ChunkMinerGame/releases).
 
 ## Features
 - 3D renderer (Direct3D 11)
