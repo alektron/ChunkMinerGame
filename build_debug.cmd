@@ -1,0 +1,1 @@
+odin.exe build ./src -debug -out:ChunkMiner.exe

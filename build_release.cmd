@@ -1,0 +1,1 @@
+odin.exe build ./src -o:speed  -out:ChunkMiner.exe
